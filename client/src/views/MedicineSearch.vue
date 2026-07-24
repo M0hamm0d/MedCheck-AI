@@ -138,7 +138,7 @@ const explainError = ref('')
 const explanationMap = reactive({})
 const explanationDisclaimers = reactive({})
 
-const suggestions = ['Paracetamol', 'Ibuprofen', 'Amoxicillin', 'Aspirin']
+const suggestions = ['Ibuprofen', 'Amoxicillin', 'Aspirin']
 
 const emptyMessage = computed(() => {
   return `We could not find any results for "${lastQuery.value}". Try the generic name or check the spelling.`
